@@ -1,5 +1,8 @@
+/* font importing */
 @import url('https://fonts.googleapis.com/css2? family = Bitter & family = Roboto: wght @ 100 & display = swap');
 
+
+/* reseting css rules */
 * {
     Margin: 0px;
     padding:0px;
@@ -44,4 +47,55 @@ nav {
     align-content: center;
     justify-content: space-between;
 
+}
+.brand {
+    font-size: 24px;
+    color: #00285f;
+    cursor: pointer;
+}
+/* aqui começa a cusomisar a lista não ordenada */
+nav ul {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: #00285f;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #85b8ff83;
+}
+
+nav ul button {
+    border: 1px solid #00285f;
+    background-color: transparent;
+    padding: 8px 40px;
+    cursor: pointer;
+    margin-left: 30px;
+    color: #00285f;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+nav ul button:hover {
+    transition: 0.8s;
+    background-color: #006aff81;
+    color: white;
+}
+.conten .header-block {
+    max-width: 1000px;
+    min-width: 300px;
+    height: 450px;
+    background-color: #00285f;
+    border-radius: 8px;
+    
 }
