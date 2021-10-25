@@ -91,11 +91,12 @@ nav ul button:hover {
     background-color: #006aff81;
     color: white;
 }
-.conten .header-block {
+.content .header-block {
     max-width: 1000px;
     min-width: 300px;
     height: 450px;
     background-color: #00285f;
     border-radius: 8px;
+    box
     
 }
