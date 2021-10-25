@@ -30,17 +30,17 @@ header {
     background-color: #f78b00;
 }
 
-.content {
+.content { 
     max-width: 1000px;
     min-width: 300px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 20px;
 }
 
 nav {
-    width: 100%;
+    width: 117%;
     height: 125px;
     display: flex;
     flex-direction: row;
@@ -96,7 +96,23 @@ nav ul button:hover {
     min-width: 300px;
     height: 450px;
     background-color: #00285f;
-    border-radius: 8px;
-    box
+    border-radius: 15px;
+    box-shadow: 1px 0px 10px 0px rgba( 0, 0, 0, 0.5);
+    position: relative;
+    z-index: 10px;
+    padding: 10px;
+
     
+}
+
+.header-block img {
+    width: 50%;
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+}
+
+.header-block .text {
+    color: white;
+
 }
