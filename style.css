@@ -240,3 +240,8 @@ section .card-item {
     margin-bottom: 10px;
 
 }
+
+.card-item button:hover {
+    background-color: #dedede;
+    color: var(--blue);
+}
